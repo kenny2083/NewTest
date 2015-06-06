@@ -16,8 +16,6 @@ public partial class _Default : System.Web.UI.Page
 
         RepeaterPosts.DataSource = posts;
         RepeaterPosts.DataBind();
-
-        //comment
     }
     protected void LinkButtonSubreddit_Click(object sender, EventArgs e)
     {
