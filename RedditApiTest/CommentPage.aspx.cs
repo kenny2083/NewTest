@@ -11,7 +11,12 @@ public partial class CommentPage : System.Web.UI.Page
     {
         if (!IsPostBack)
         {
-            LabelTitle.Text = "Comments";
+            UpdatePageTitle("Comments");
         }
+    }
+
+    public void UpdatePageTitle(string title)
+    {
+        LabelTitle.Text = title;
     }
 }
